@@ -1,0 +1,89 @@
+.profile-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.profile-details,
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.edit-form input {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #27ae60;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button-profile:last-child {
+  background-color: #6c757d;
+}
+.login-prompt {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  border: 2px solid #e74c3c;
+  border-radius: 8px;
+  background-color: #ffffff;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Message Text */
+.login-prompt p {
+  font-size: 1.2rem;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #04632b;
+  transform: translateY(-2px);
+}
+
+.login-btn:active {
+  transform: translateY(0);
+}
+
+.user-avatar {
+  width: 80px; /* Width of the avatar circle */
+  height: 80px; /* Height of the avatar circle */
+  background-color: #27ae60; /* Blue background */
+  color: white; /* White text */
+  border-radius: 50%; /* Make the shape a circle */
+  display: flex; /* Flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  font-size: 24px; /* Font size for the first letter */
+  font-weight: bold; /* Bold letter */
+  margin: 0 auto; /* Center the avatar horizontally */
+  margin-top: 10px;
+}

@@ -1,0 +1,124 @@
+/* General Navbar Styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    padding: 16px 24px;
+    z-index: 9999;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #38a169;
+    text-decoration: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .nav-item {
+    color: #38a169;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    /* border: 1px solid red; */
+  }
+  
+  .nav-item:hover,
+  .nav-item.active {
+    /* color: #38a169; Green color for active/hover */
+  }
+  .newClass{
+    /* border: 1px solid red; */
+    border-radius:37px ;
+    width: 250px;
+    padding: 10px 15px;
+    background-color: #3cab7d;
+    color: #fff;
+  }
+  
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-nav-links {
+    display: none;
+  }
+  
+  
+  .mobile-nav-item {
+    background-color: #fff;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Add space between items */
+  }
+  
+  .mobile-nav-item:hover,
+  .mobile-nav-item.active {
+    background-color: #38a169;
+    color: white;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .mobile-nav-links {
+      display: block;
+      position: absolute;
+      top: 64px;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 16px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 8px 16px;
+    }
+  
+    .logo a {
+      font-size: 20px;
+    }
+  
+    .nav-item {
+      font-size: 14px;
+    }
+  
+    .mobile-nav-item {
+      font-size: 16px;
+      padding: 1px; /* Adjust padding for better spacing */
+      margin-bottom: 15px; /* More space between items */
+    }
+  }
+  
