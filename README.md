@@ -46,4 +46,4 @@ To set up and run the project locally, follow these steps:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/shashikantRupin/Panini8_assignment.git
+   git clone https://github.com/shashikantRupin/panini8-assignment
