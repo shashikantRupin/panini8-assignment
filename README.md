@@ -7,8 +7,6 @@
 - [⚙️ Installation](#-installation)
 - [🚀 Usage](#-usage)
 - [🌐 Deployed Links](#-deployed-links)
-- [🖼️ Screenshots](#-screenshots)
-- [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
 ---
